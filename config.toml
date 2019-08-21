@@ -1,0 +1,10 @@
+baseURL = "https://pigeon.life/"
+languageCode = "en-gb"
+title = "~backwardspy"
+theme = "elephants"
+enableEmoji = true
+pygmentsCodeFences = true
+pygmentsStyle = "murphy"
+
+[params]
+    sitename = "~backwardspy"
