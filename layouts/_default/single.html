@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{.Title}}</title>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/syntax.css">
+</head>
+
+<body>
+    <section class="blog-post">
+        <a href="/"><- back</a>
+        <h1>{{ .Title }}</h1>
+        <div class="blog-post-subheader">
+            {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }}
+        </div>
+        <div class="blog-post-content">
+            {{ .Content }}
+            <em>~backwardspy</em>
+        </div>
+    </section>
+</body>
+
+</html>
