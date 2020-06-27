@@ -5,6 +5,7 @@ theme = "elephants"
 enableEmoji = true
 pygmentsCodeFences = true
 pygmentsStyle = "murphy"
+contentPath = "content"
 
 [params]
     sitename = "~backwardspy"
